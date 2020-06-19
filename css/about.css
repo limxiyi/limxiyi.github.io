@@ -1,0 +1,87 @@
+#about1,#about2, #about3 {
+    margin: 10px auto;
+    width: 600px;
+    background-color: white;
+    border-radius:10px;
+    overflow:hidden;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.information {
+    float: left;
+    margin: 25px;
+}
+.information .infor1{
+    float: left;
+    line-height: 26px;
+}
+.information .infor2{
+    float: left;
+    margin-left: 10px;
+    line-height: 26px;
+}
+.photo {
+    float:right;
+    margin: 25px;
+}
+.photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+.edu {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+
+.exp {
+    text-align: left;
+    margin: 10px 30px;    
+}
+
+.exp img {
+    width: 20px;
+    float: left;
+}
+.timeline-event {
+    float: left;
+    width: 90%;
+    left: 20px;
+    padding:0 2em 1em 2em;
+    position: relative;
+    top: -1.875em;
+}
+.timeline-event-time {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #E8B6AB;
+    display: inline-block;
+    padding: 0.25em 1em 0.2em 1em;
+    margin: 0 0 5px;
+}
+.timeline-event h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.timeline-event h4 {
+    font-size: 14px;
+    letter-spacing: 2px;   /**字间距**/
+    color: #E8B6AB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}

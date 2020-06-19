@@ -1,0 +1,96 @@
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.travel {
+	width: 850px;
+	margin: 0 auto;
+}
+
+.travel1 {
+    display:inline-block;
+    vertical-align: top;
+    background-color: white;
+    width: 500px;
+    border-radius:10px;
+    border: 1px solid #ddd;
+}
+
+.travel1 ul .day{
+	width: 75px;
+	height:34px;
+	float:left;
+	margin-left:15px;
+}
+.travel1 ul .text{
+    text-align: left;
+	width: 380px; 
+	float: left; 
+	margin-left:15px; 
+    line-height:24px;
+} 
+.travel1 ul .text p {
+    text-indent:2em;
+}
+
+.day .day1{
+	height:16px; 
+	line-height:16px; 
+	background-color:#E8B6AB; 
+	color:#fff;
+	font-size:12px; 
+	font-family:"Microsoft YaHei"; 
+	text-align:center;
+}
+.day .day2{
+	height:15px; 
+	line-height:15px;
+	border:1px solid rgb(253, 225, 219); 
+	color:#E8B6AB;
+	font-size:12px;
+	font-family:"Microsoft YaHei"; 
+	text-align:center;
+	background-color:#fff;
+}
+
+
+.travel2 {
+    display:inline-block;
+    vertical-align: top;
+    background-color: rgb(245, 214, 207);
+    width: 250px;
+    margin-left: 80px;
+    border-radius:10px;
+    border: 1px solid #ddd;
+}
+.travel2 img {
+	width: 90%;;
+	border-radius:5px;
+}
+
+.travel2 .list {
+    text-align: left;
+	width: 90%; 
+	margin: 0px 15px 15px 15px; 
+	line-height:24px;
+}
+
+.travel2 .list p {
+	text-align: right;
+}
+
+
+/**清除浮动**/
+.clearfix{
+	display: block; *zoom:1;
+	margin-bottom:10px;
+}
+.clearfix:after{
+	clear: both; 
+	content: "."; 
+	display: block;
+	height: 0; 
+	visibility: hidden; 
+}

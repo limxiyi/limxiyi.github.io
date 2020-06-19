@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+     <!--导航区nav-->
+     <div id="nav">
+        <!--每个区都有一个公共类inner，用来放置内容，居中-->
+        <div class="inner">
+            <ul>
+                <li class="nav-item">
+                    <a href="index.html" class="item-name">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="item-name">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="travel.html" class="item-name">Travel</a>
+                </li>
+                <li class="nav-item">
+                    <a href="daily.html" class="item-name">Life</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="item-name">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--end of nav-->
+
+    <!--container主体部分-->
+    <div id="container">
+        <!--页面标题-->
+        <div>
+            <h1>SAY 'HELLO'</h1>
+        </div>
+
+        <!--联络方式-->
+        <div class="way">
+            <h3>Name</h3>
+            <p>Lin Shiyi</p>
+            <h3>Phone Number</h3>
+            <p>+86 188****5909</p>
+            <h3>E-mail</h3>
+            <p>782396***@qq.com</p>
+            <h3>Social Network</h3>
+            <div>
+                <img src="./img/wx.png" alt="wx" class="pic">
+                <img src="./img/qq.png" alt="qq" class="pic">
+            </div>
+        </div>
+        <!--end of way-->
+
+        <!--发送信息-->
+        <div class="getcontact">
+            <form action="">
+                <input type="text" name="name" class="form-control" placeholder="Your Name">
+                <input type="email" name="email" class="form-control" placeholder="Your E-mail">
+                <input type="text" name="phone" class="form-control" placeholder="Phone Number">
+                <textarea name="message" class="form-control" placeholder="Your Message"
+                    style="height:100px"></textarea>
+                <button id="submit" type="submit" name="submit" class="btn">Send</button>
+            </form>
+        </div>
+        <!--end of getcontact-->
+    </div>
+    <!--end of container-->
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+.picture {
+    margin-top: 20px;
+    font-size: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:center;
+}
+
+.picture li {
+    display:inline-block;
+    margin: 0 0 3% 3%;
+}
+
+.picture li .imgBx { 
+    position: relative;
+    width: 300px;
+    height: 225px;
+    background: #000;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+    border-radius:5px;
+}
+.picture li .imgBx img {
+    width: 100%;
+    border-radius:5px;
+}
+.picture .imgBx:hover img {
+    opacity: 0.5;  /**透明度50%**/
+    transition: 0.5s;
+}
+.picture li .content {
+    position: absolute;
+    bottom: 0;
+    background-color: #e8b6aba4;
+    width: 100%;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 5px;
+}
+.picture .imgBx:hover .content {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+.picture .imgBx .content h4 {
+    font-size: 16px;
+    color: #fff;
+}
+.picture .imgBx .content p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0;
+    line-height: 20px;
+    transition: 0.5s;
+    text-align: justify;
+    font-family: STKaiti;
+}
+.picture .imgBx:hover .content p {
+    opacity: 1;
+    transition-delay: 0.3s;
+    text-indent:2em;
+    padding: 0 10px;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 30px;
+	padding-bottom: 10px;
+	text-shadow: 2px 2px 2px  #E8B6AB;
+}
+table.imagetable {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#fff;
+    border-width: 1px;
+    border-color: #000;
+    border-collapse: collapse;
+    margin: 10px auto 0 auto;
+}
+table.imagetable th {
+    background-color:#E8B6AB;
+    border-width: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #000;
+    text-align: center;
+    width: 100px;
+}
+table.imagetable .tabletime {
+    background-color:#E8B6AB80;
+}
+table.imagetable td {
+    background-color:rgba(245, 214, 207, 0.3);
+    border-width: 1px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #000;
+}
